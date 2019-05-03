@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Amazon Test Suite,Chrome 74.0.3729.131,,2019-05-03 07:12:10,2019-05-03 07:12:36,25.683s,PASSED
+,,,,,,
+Test Cases/WhileLoop/TC-AmazonSearch,Chrome 74.0.3729.131,,2019-05-03 07:12:20,2019-05-03 07:12:35,15.490s,PASSED
+"openBrowser(""https://www.amazon.com/s?k=basketball&crid=318457I4LR7LS&sprefix=baske%2Caps%2C399&ref=nb_sb_ss_i_1_5"")",Chrome 74.0.3729.131,,2019-05-03 07:12:21,2019-05-03 07:12:28,6.996s,PASSED
+maximizeWindow(),Chrome 74.0.3729.131,,2019-05-03 07:12:28,2019-05-03 07:12:29,1.136s,PASSED
+waitForPageLoad(60),Chrome 74.0.3729.131,,2019-05-03 07:12:29,2019-05-03 07:12:29,0.282s,PASSED
+try,Chrome 74.0.3729.131,,2019-05-03 07:12:29,2019-05-03 07:12:34,5.437s,PASSED
+Finally,Chrome 74.0.3729.131,,2019-05-03 07:12:34,2019-05-03 07:12:35,1.064s,PASSED

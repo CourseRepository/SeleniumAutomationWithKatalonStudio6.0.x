@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Amazon Test Suite" time="25" tests="1" failures="0" errors="0">
+   <testsuite name="Amazon Test Suite" tests="1" failures="0" errors="0" time="25" timestamp="2019-05-03 07:12:10" hostname="rathr1 - L33986WUS.rpega.com" id="Test Suites/Amazon Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio6.0.x\\Reports\\Amazon Test Suite\\20190503_071202"/>
+         <property name="logFiles" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio6.0.x\\Reports\\Amazon Test Suite\\20190503_071202\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rathr1 - L33986WUS.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 74.0.3729.131"/>
+         <property name="hostAddress" value="55.55.55.1"/>
+         <property name="sessionId" value="561fa18d48840e3e679b345003e526fe"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WhileLoop/TC-AmazonSearch" classname="Test Cases/WhileLoop/TC-AmazonSearch" status="PASSED">
+         <system-out><![CDATA[2019-05-03 07:12:20 - [TEST_CASE][PASSED] - Test Cases/WhileLoop/TC-AmazonSearch: Test Cases/WhileLoop/TC-AmazonSearch
+
+2019-05-03 07:12:21 - [TEST_STEP][PASSED] - openBrowser("https://www.amazon.com/s?k=basketball&crid=318457I4LR7LS&sprefix=baske%2Caps%2C399&ref=nb_sb_ss_i_1_5"): Browser is opened with url: 'https://www.amazon.com/s?k=basketball&crid=318457I4LR7LS&sprefix=baske%2Caps%2C399&ref=nb_sb_ss_i_1_5'
+
+2019-05-03 07:12:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-05-03 07:12:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-05-03 07:12:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.amazon.com/s?k=basketball&crid=318457I4LR7LS&sprefix=baske%2Caps%2C399&ref=nb_sb_ss_i_1_5'
+
+2019-05-03 07:12:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Current window maximized
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - waitForPageLoad(60): Wait for page load successfully
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - try: null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - while (true): null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (!(waitForElementPresent(findTestObject("Amazon/Search/SearchGrid", ["value":value]), 30))): Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - aText = getText(findTestObject("Amazon/Search/SearchGrid", ["value":value])): Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Wilson NCAA MVP Rubber Basketball'
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Wilson NCAA MVP Rubber Basketball'
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (toString().contains("Wilson Evolution")): null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - value += 1: null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (!(waitForElementPresent(findTestObject("Amazon/Search/SearchGrid", ["value":value]), 30))): Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - aText = getText(findTestObject("Amazon/Search/SearchGrid", ["value":value])): Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Spalding NBA Zi/O Indoor/Outdoor Basketball - Official Size 7 (29.5")'
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Spalding NBA Zi/O Indoor/Outdoor Basketball - Official Size 7 (29.5")'
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (toString().contains("Wilson Evolution")): null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - value += 1: null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (!(waitForElementPresent(findTestObject("Amazon/Search/SearchGrid", ["value":value]), 30))): Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - aText = getText(findTestObject("Amazon/Search/SearchGrid", ["value":value])): Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Spalding NBA Street Basketball'
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Spalding NBA Street Basketball'
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (toString().contains("Wilson Evolution")): null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - value += 1: null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (!(waitForElementPresent(findTestObject("Amazon/Search/SearchGrid", ["value":value]), 30))): Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - aText = getText(findTestObject("Amazon/Search/SearchGrid", ["value":value])): Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Spalding NBA Zi/O Indoor/Outdoor Basketball - Official Size 7 (29.5")'
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Spalding NBA Zi/O Indoor/Outdoor Basketball - Official Size 7 (29.5")'
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (toString().contains("Wilson Evolution")): null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - value += 1: null
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - if (!(waitForElementPresent(findTestObject("Amazon/Search/SearchGrid", ["value":value]), 30))): Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon/Search/SearchGrid' is present
+
+2019-05-03 07:12:29 - [TEST_STEP][PASSED] - aText = getText(findTestObject("Amazon/Search/SearchGrid", ["value":value])): Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Wilson Evolution Game Basketball'
+
+2019-05-03 07:12:30 - [MESSAGE][PASSED] - Text of object 'Object Repository/Amazon/Search/SearchGrid' is: 'Wilson Evolution Game Basketball'
+
+2019-05-03 07:12:30 - [TEST_STEP][PASSED] - if (toString().contains("Wilson Evolution")): null
+
+2019-05-03 07:12:30 - [TEST_STEP][PASSED] - click(findTestObject("Amazon/Search/SearchGrid", ["value":value])): Object: 'Object Repository/Amazon/Search/SearchGrid' is clicked on
+
+2019-05-03 07:12:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Amazon/Search/SearchGrid' is clicked on
+
+2019-05-03 07:12:34 - [TEST_STEP][PASSED] - break: null
+
+2019-05-03 07:12:34 - [TEST_STEP][PASSED] - Finally: Browser is closed
+
+2019-05-03 07:12:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-05-03 07:12:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-05-03 07:12:10 - [TEST_SUITE][PASSED] - Amazon Test Suite: Test Cases/WhileLoop/TC-AmazonSearch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
