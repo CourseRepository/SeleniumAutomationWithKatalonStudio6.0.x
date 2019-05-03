@@ -1,1 +1,1 @@
-# SeleniumAutomationWithKatalonStudio
+# SeleniumAutomationWithKatalonStudioV6.0x
