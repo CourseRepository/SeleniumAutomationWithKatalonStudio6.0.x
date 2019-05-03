@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-AmazonSearch</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a51113de-c037-4c66-8261-7dde5c4ee68d</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>e15a552f-5e77-4dc4-874f-03890424fc6a</id>
+      <masked>false</masked>
+      <name>value</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fae593e5-f797-4d68-b9ba-b0c5ef556ead</id>
+      <masked>false</masked>
+      <name>aText</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SearchGrid</name>
+   <tag></tag>
+   <elementGuidId>ca387e97-dd3f-4dc2-8d26-65eb40bbd4f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[@data-component-type='s-search-results']/div/div[${value}]//h2//span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//span[@data-component-type='s-search-results']/div/div[${value}]//h2//span</value>
+   </webElementProperties>
+</WebElementEntity>
