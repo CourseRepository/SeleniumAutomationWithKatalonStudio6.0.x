@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-TestObjectWithParameter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c1cbaaa0-1f9e-4da6-8b54-7b276873662a</testCaseGuid>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>7ee29153-ed43-4221-9745-bdb6588eff56</id>
+      <masked>false</masked>
+      <name>index</name>
+   </variable>
+   <variable>
+      <defaultValue>'s-search-results'</defaultValue>
+      <description></description>
+      <id>571b4b70-046a-4c4f-8232-9c14567530e3</id>
+      <masked>false</masked>
+      <name>component</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7e12ab70-3d8e-4766-aab7-3633062646cf</id>
+      <masked>false</masked>
+      <name>outputText</name>
+   </variable>
+</TestCaseEntity>

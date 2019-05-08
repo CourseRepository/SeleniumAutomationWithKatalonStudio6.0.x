@@ -30,7 +30,9 @@ public class GlobalVariable {
     public static Object DelayTime
      
     /**
-     * <p>Profile default : Explicit Wait Timeout</p>
+     * <p>Profile default : Explicit Wait Timeout
+Profile Production : Explicit Wait Timeout
+Profile Stage : Explicit Wait Timeout</p>
      */
     public static Object TimeOut
      
@@ -49,6 +51,11 @@ public class GlobalVariable {
      */
     public static Object NewProperty
      
+    /**
+     * <p></p>
+     */
+    public static Object StageTimeOut
+     
 
     static {
         try {
@@ -64,6 +71,7 @@ public class GlobalVariable {
             Path = selectedVariables['Path']
             Name = selectedVariables['Name']
             NewProperty = selectedVariables['NewProperty']
+            StageTimeOut = selectedVariables['StageTimeOut']
             
         } catch (Exception e) {
             TestCaseMain.logGlobalVariableError(e)
