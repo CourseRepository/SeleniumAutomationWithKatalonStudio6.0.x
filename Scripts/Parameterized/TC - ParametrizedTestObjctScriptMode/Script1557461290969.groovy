@@ -1,3 +1,4 @@
+
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
@@ -13,22 +14,21 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-try {
-    WebUI.openBrowser('https://www.amazon.com/s?k=basketball&crid=318457I4LR7LS&sprefix=baske%2Caps%2C399&ref=nb_sb_ss_i_1_5')
-
-    WebUI.maximizeWindow()
-
-    WebUI.waitForPageLoad(60)
-
-    while (index <= 4) {
-        index += 1
-
-        ouputText = WebUI.getText(findTestObject('Search_Grid', [('component') : component, ('index') : index]), FailureHandling.STOP_ON_FAILURE)
-
-        println(outputText)
-    }
+try{
+	
+	WebUI.openBrowser('https://www.amazon.com/s?k=basketball&crid=318457I4LR7LS&sprefix=baske%2Caps%2C399&ref=nb_sb_ss_i_1_5')
+	
+	WebUI.maximizeWindow()
+	
+	WebUI.waitForPageLoad(GlobalVariable.TimeOut)
+	
+	for(int index_1 = 1; index_1 <=5; index_1++){
+		println findTestObject('Object Repository/Parameterized/Search_Grid',[('index') : index_1,('component') : 's-search-results']).getProperties().get(0).getValue()
+		String atext = WebUI.getText(findTestObject('Object Repository/Parameterized/Search_Grid',[('index') : index_1,('component') : 's-search-results']))
+		println atext
+	}
+	
+	
+}finally{
+	WebUI.closeBrowser()
 }
-finally { 
-    WebUI.closeBrowser()
-}
-

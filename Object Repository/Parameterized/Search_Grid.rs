@@ -3,7 +3,7 @@
    <description></description>
    <name>Search_Grid</name>
    <tag></tag>
-   <elementGuidId>812820be-558d-411e-8d1d-607311ec65f6</elementGuidId>
+   <elementGuidId>81ab4c87-672c-4812-8003-4797f8a2e9f5</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

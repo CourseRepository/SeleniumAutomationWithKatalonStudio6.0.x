@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC-TestObjectWithParameter</name>
+   <name>TC-TestParameterizedObject</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>c1cbaaa0-1f9e-4da6-8b54-7b276873662a</testCaseGuid>
+   <testCaseGuid>145ddd45-1b38-4115-a590-98a328f22adc</testCaseGuid>
    <variable>
       <defaultValue>1</defaultValue>
       <description></description>
-      <id>7ee29153-ed43-4221-9745-bdb6588eff56</id>
+      <id>3f4d04ea-a0d6-44d1-a6a4-b427aa4c7b79</id>
       <masked>false</masked>
-      <name>index</name>
+      <name>index_1</name>
    </variable>
    <variable>
       <defaultValue>'s-search-results'</defaultValue>
       <description></description>
-      <id>571b4b70-046a-4c4f-8232-9c14567530e3</id>
+      <id>236acc1f-66e4-4676-95b6-029f8a87e225</id>
       <masked>false</masked>
-      <name>component</name>
+      <name>searchresults</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>7e12ab70-3d8e-4766-aab7-3633062646cf</id>
+      <id>9c402df6-0f92-4aeb-b900-08e10ab88732</id>
       <masked>false</masked>
-      <name>outputText</name>
+      <name>atext</name>
    </variable>
 </TestCaseEntity>

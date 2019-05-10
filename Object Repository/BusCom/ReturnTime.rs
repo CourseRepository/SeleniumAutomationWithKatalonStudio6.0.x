@@ -7,24 +7,23 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value></value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'destinationTime']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>[id = 'returnLegTime'][name = 'returnLeg[time]']</value>
       </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'returnLegTime']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>returnLegTime</value>
+      <value>destinationTime</value>
    </webElementProperties>
 </WebElementEntity>

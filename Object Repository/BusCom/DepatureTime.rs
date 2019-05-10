@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'outgoingLegTime']</value>
+         <value>//*[@id = 'departureTime']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>outgoingLegTime</value>
+      <value>departureTime</value>
    </webElementProperties>
 </WebElementEntity>

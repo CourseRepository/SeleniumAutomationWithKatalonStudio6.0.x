@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'outgoingLegDate']</value>
+         <value>//span[@id='departureDate']//input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -15,8 +15,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>xpath</name>
       <type>Main</type>
-      <value>outgoingLegDate</value>
+      <value>//span[@id='departureDate']//input</value>
    </webElementProperties>
 </WebElementEntity>
