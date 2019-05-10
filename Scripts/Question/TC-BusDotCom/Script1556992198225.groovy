@@ -50,27 +50,37 @@ try {
 	
 	/* -------------------- Actions ------------------------------------- */
 
-    WebUI.sendKeys(findTestObject('Object Repository/BusCom/DepatureDate'), 'May 5, 2019')
+    /*WebUI.sendKeys(findTestObject('Object Repository/BusCom/DepatureDate'), 'May 5, 2019')
 
     WebUI.click(findTestObject('Object Repository/BusCom/DepatureDate'))
 	
 	WebUI.sendKeys(findTestObject('Object Repository/BusCom/DepatureTime'), '1:30 am')
 	
-	WebUI.click(findTestObject('Object Repository/BusCom/DepatureTime'))
+	WebUI.click(findTestObject('Object Repository/BusCom/DepatureTime'))*/
 
     //WebUI.selectOptionByValue(findTestObject('Object Repository/BusCom/DepatureTime'), '1:30', false)
 
-    WebUI.sendKeys(findTestObject('Object Repository/BusCom/ReturnDate'), 'May 7, 2019')
+   /* WebUI.sendKeys(findTestObject('Object Repository/BusCom/ReturnDate'), 'May 7, 2019')
 
     WebUI.click(findTestObject('Object Repository/BusCom/ReturnDate'))
 	
 	WebUI.sendKeys(findTestObject('Object Repository/BusCom/ReturnTime'), '2:00 am')
 	
-	WebUI.click(findTestObject('Object Repository/BusCom/ReturnTime'))
+	WebUI.click(findTestObject('Object Repository/BusCom/ReturnTime'))*/
 
     //WebUI.selectOptionByValue(findTestObject('Object Repository/BusCom/ReturnTime'), '2:00', false)
+	
+	
+	WebUI.executeJavaScript('arguments[0].value = \'Jan 17, 2020\';', Arrays.asList(depatureDate))
+	
+	WebUI.executeJavaScript('arguments[0].value = \'10:00 pm\';', Arrays.asList(depatureTime))
+
+	WebUI.executeJavaScript('arguments[0].value = \'Dec 1, 2021\';', Arrays.asList(returnDate))
+	
+	WebUI.executeJavaScript('arguments[0].value = \'01:10 am\';', Arrays.asList(returnTime))
 
     WebUI.delay(4)
+	
 }
 finally { 
     WebUI.closeBrowser()
