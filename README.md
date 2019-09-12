@@ -1,1 +1,12 @@
-# SeleniumAutomationWithKatalonStudioV6.0x
+# Selenium Automation With Katalon Studio
+
+Katalon Studio is a comprehensive tool set for web and mobile app automation testing. This repo is for Katalon Studio version 6.0.x
+
+
+# Course Link (Discount Coupon)
+
+https://www.udemy.com/course/automation-testing-using-selenium-katalon-studio/?couponCode=DISC50
+
+# YouTube Playlist
+
+https://www.youtube.com/playlist?list=PLlsKgYi2Lw70Mz0ohNkLVxtJyGrJOGJTR
