@@ -1,4 +1,4 @@
-# Selenium Automation With Katalon Studio
+# Automation Testing using Selenium & Katalon Studio 
 
 Katalon Studio is a comprehensive tool set for web and mobile app automation testing. This repo is for Katalon Studio version 6.0.x
 
