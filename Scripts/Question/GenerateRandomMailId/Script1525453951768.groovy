@@ -24,12 +24,16 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKey
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.driver.DriverFactory
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.question.RandomNumberGenerator
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 String mail = CustomKeywords.'com.question.RandomEmail.getEmail'('test', 'gmail.com')
 
 println mail
+
+println RandomNumberGenerator.randomNumber;
+
 
 
  

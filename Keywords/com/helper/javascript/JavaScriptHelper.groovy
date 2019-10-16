@@ -24,7 +24,7 @@ public class JavaScriptHelper {
 	@Keyword
 	public void executeScript(String script){
 		KeywordUtil.logInfo("[Java Script ] : " + script)
-		executor.executeScript(script)
+		println executor.executeScript(script)
 	}
 
 	@Keyword

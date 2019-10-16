@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC-DetectBrowser</name>
+   <tag>question</tag>
+   <comment></comment>
+   <testCaseGuid>d550efcc-7b8b-4787-a3f2-24e31f83b9dd</testCaseGuid>
+</TestCaseEntity>

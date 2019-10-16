@@ -48,6 +48,24 @@ def static "com.helper.excel.ExcelHelper.writeTOExcelFile"(
          , 	colNo)
 }
 
+def static "com.question.CustomSendKeys.TypeInText"(
+    	TestObject aLocator	
+     , 	String text	) {
+    (new com.question.CustomSendKeys()).TypeInText(
+        	aLocator
+         , 	text)
+}
+
+def static "com.question.CustomSendKeys.TypeInTextBoxWithWait"(
+    	TestObject aLocator	
+     , 	String text	
+     , 	int timeOutInSeconds	) {
+    (new com.question.CustomSendKeys()).TypeInTextBoxWithWait(
+        	aLocator
+         , 	text
+         , 	timeOutInSeconds)
+}
+
 def static "com.helper.javascript.JavaScriptHelper.executeScript"(
     	String script	) {
     (new com.helper.javascript.JavaScriptHelper()).executeScript(
@@ -68,24 +86,6 @@ def static "com.helper.javascript.JavaScriptHelper.executeAndReturnValue"(
     (new com.helper.javascript.JavaScriptHelper()).executeAndReturnValue(
         	script
          , 	testObject)
-}
-
-def static "com.question.CustomSendKeys.TypeInText"(
-    	TestObject aLocator	
-     , 	String text	) {
-    (new com.question.CustomSendKeys()).TypeInText(
-        	aLocator
-         , 	text)
-}
-
-def static "com.question.CustomSendKeys.TypeInTextBoxWithWait"(
-    	TestObject aLocator	
-     , 	String text	
-     , 	int timeOutInSeconds	) {
-    (new com.question.CustomSendKeys()).TypeInTextBoxWithWait(
-        	aLocator
-         , 	text
-         , 	timeOutInSeconds)
 }
 
 def static "com.helper.browserhelper.CustomBrowser.openBrowser"() {

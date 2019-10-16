@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="ExcelDriven" time="12" tests="5" failures="0" errors="0">
+   <testsuite name="ExcelDriven" tests="5" failures="0" errors="0" time="12" timestamp="2019-08-24 13:32:48" hostname="rathr1 - L33986WUS.rpega.com" id="Test Suites/ExcelDriven">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio6.0.x\\Reports\\ExcelDriven\\20190824_133245"/>
+         <property name="logFiles" value="C:\\Data\\GitHub\\SeleniumAutomationWithKatalonStudio6.0.x\\Reports\\ExcelDriven\\20190824_133245\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="rathr1 - L33986WUS.rpega.com"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.0.6.4"/>
+         <property name="browser" value="Chrome 76.0.3809.100"/>
+         <property name="hostAddress" value="10.2.202.95"/>
+         <property name="sessionId" value="fac32c33a4544c6a5868ac4a3fe02cc6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/DataDriven/TC - LoginWithDiffCredentials" classname="Test Cases/DataDriven/TC - LoginWithDiffCredentials" status="PASSED">
+         <system-out><![CDATA[2019-08-24 13:32:59 - [TEST_CASE][PASSED] - Test Cases/DataDriven/TC - LoginWithDiffCredentials: Test Cases/DataDriven/TC - LoginWithDiffCredentials
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - if (!(empty)): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.clear(): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - try: null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Username): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Passwrod): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.put(Username, Passwrod): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDriven/TC - LoginWithDiffCredentials" classname="Test Cases/DataDriven/TC - LoginWithDiffCredentials" status="PASSED">
+         <system-out><![CDATA[2019-08-24 13:32:59 - [TEST_CASE][PASSED] - Test Cases/DataDriven/TC - LoginWithDiffCredentials: Test Cases/DataDriven/TC - LoginWithDiffCredentials
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - if (!(empty)): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.clear(): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - try: null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Username): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Passwrod): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.put(Username, Passwrod): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDriven/TC - LoginWithDiffCredentials" classname="Test Cases/DataDriven/TC - LoginWithDiffCredentials" status="PASSED">
+         <system-out><![CDATA[2019-08-24 13:32:59 - [TEST_CASE][PASSED] - Test Cases/DataDriven/TC - LoginWithDiffCredentials: Test Cases/DataDriven/TC - LoginWithDiffCredentials
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - if (!(empty)): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.clear(): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - try: null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Username): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Passwrod): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.put(Username, Passwrod): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDriven/TC - LoginWithDiffCredentials" classname="Test Cases/DataDriven/TC - LoginWithDiffCredentials" status="PASSED">
+         <system-out><![CDATA[2019-08-24 13:32:59 - [TEST_CASE][PASSED] - Test Cases/DataDriven/TC - LoginWithDiffCredentials: Test Cases/DataDriven/TC - LoginWithDiffCredentials
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - if (!(empty)): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.clear(): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - try: null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Username): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Passwrod): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.put(Username, Passwrod): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDriven/TC - LoginWithDiffCredentials" classname="Test Cases/DataDriven/TC - LoginWithDiffCredentials" status="PASSED">
+         <system-out><![CDATA[2019-08-24 13:32:59 - [TEST_CASE][PASSED] - Test Cases/DataDriven/TC - LoginWithDiffCredentials: Test Cases/DataDriven/TC - LoginWithDiffCredentials
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - if (!(empty)): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.clear(): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - try: null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Username): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - println(Passwrod): null
+
+2019-08-24 13:32:59 - [TEST_STEP][PASSED] - dataToWriteInExcel.put(Username, Passwrod): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-08-24 13:32:48 - [TEST_SUITE][PASSED] - ExcelDriven: Test Cases/DataDriven/TC - LoginWithDiffCredentials]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

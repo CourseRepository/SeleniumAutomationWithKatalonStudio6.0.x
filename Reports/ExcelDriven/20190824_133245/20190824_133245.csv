@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+ExcelDriven,Chrome 76.0.3809.100,,2019-08-24 13:32:48,2019-08-24 13:33:01,12.964s,PASSED
+,,,,,,
+Test Cases/DataDriven/TC - LoginWithDiffCredentials,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.212s,PASSED
+if (!(empty)),Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.019s,PASSED
+try,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.009s,PASSED
+,,,,,,
+Test Cases/DataDriven/TC - LoginWithDiffCredentials,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.018s,PASSED
+if (!(empty)),Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.002s,PASSED
+try,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.006s,PASSED
+,,,,,,
+Test Cases/DataDriven/TC - LoginWithDiffCredentials,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.019s,PASSED
+if (!(empty)),Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.003s,PASSED
+try,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.006s,PASSED
+,,,,,,
+Test Cases/DataDriven/TC - LoginWithDiffCredentials,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.018s,PASSED
+if (!(empty)),Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.002s,PASSED
+try,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.004s,PASSED
+,,,,,,
+Test Cases/DataDriven/TC - LoginWithDiffCredentials,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.015s,PASSED
+if (!(empty)),Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.002s,PASSED
+try,Chrome 76.0.3809.100,,2019-08-24 13:32:59,2019-08-24 13:32:59,0.004s,PASSED

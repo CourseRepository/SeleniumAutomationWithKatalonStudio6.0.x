@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ExcelDriven</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>e6c20ef0-7078-4289-b223-79ba2118951a</testSuiteGuid>
+   <testCaseLink>
+      <guid>34584756-4aa6-40ca-b01c-092c78ac04ab</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/DataDriven/TC - LoginWithDiffCredentials</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3a58b8ef-487f-43b0-bf39-83d744970022</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/ExcelDataSource/DataForUser</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>3a58b8ef-487f-43b0-bf39-83d744970022</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>UserName</value>
+         <variableId>97f56e18-ce93-4936-ab2c-f69d3b4c176a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3a58b8ef-487f-43b0-bf39-83d744970022</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>42fd0643-e65a-4776-ab59-822c24a13ceb</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
